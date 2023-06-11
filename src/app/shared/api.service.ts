@@ -12,8 +12,8 @@ export class ApiService
   [x: string]: any;
   
   addRestaurent(restaurentModelObj: RestaurentData) 
-  {
-    throw new Error('Method not implemented.');
+  { 
+    throw new Error('Method not implemented.');   // Add logic
   }
 
   constructor(private _http: HttpClient) { }
